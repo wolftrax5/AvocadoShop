@@ -32,7 +32,8 @@ const generateNode = (element) => {
   priceAndTitle.appendChild(price);
 
   const card = document.createElement("section");
-  card.className = "md:flex bg-white rounded-lg p-6 hover:bg-gray-300";
+  card.className =
+    "md:flex bg-white rounded-lg p-6 hover:bg-gray-300 hover:shadow-xl";
   card.append(image, priceAndTitle);
   return card;
 };
