@@ -5,6 +5,6 @@ module.exports = {
     src: "/_dist_",
   },
   buildOptions: {
-    baseUrl: "/",
+    baseUrl: "https://wolftrax5.github.io/AvocadoShop",
   },
 };
